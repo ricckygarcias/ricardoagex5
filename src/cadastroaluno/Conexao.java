@@ -3,8 +3,8 @@ package cadastroaluno;
 import java.sql.*;
 
 public class Conexao {
-    String driver = "com.mysql.jdbk.Driver"; //Driver para conexão com o Banco
-    String banco = "CadAluno"; //Nome do banco de dados
+    String driver = "com.mysql.jdbc.Driver"; //Driver para conexão com o Banco
+    String banco = "cadaluno"; //Nome do banco de dados
     String host = "localhost"; //Servidor do banco de dados
     String stringDeConexao = "jdbc:mysql://" + host + ":3306/" + banco + "?serverTimezone=UTC"; //String de conexão com o Banco
     String usuario = "root"; //Usuario do Banco de Dados
